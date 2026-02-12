@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'talker = lab_1_ros.talker:main',
+            'listener = lab_1_ros.listener:main',
         ],
     },
 )
